@@ -26,6 +26,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 **Cloud Platforms:** AWS, GCP
 
 **CI/CD & Tools:** Git, Jenkins, GitHub Actions, Bitbucket Pipelines
+
 **Orchestration:** ECS, Kubernetes (EKS, GKE)
 
 ---
