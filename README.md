@@ -1,6 +1,6 @@
 # Nupur Thakur
 
-**Engineer**
+**Last seen building platforms at CRED**
 
 📍 Bengaluru, IN | 📧 hinupurthakur@gmail.com 
 [LinkedIn](https://linkedin.com/in/hinupurthakur) | [GitHub](https://github.com/hinupurthakur)
