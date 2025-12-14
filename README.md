@@ -74,8 +74,8 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 ### Layer5 | *October 2020*
 **Golang with mesheryctl**  
-[Watch the talk](https://www.youtube.com/watch?v=wK7Q-zbJ3gQ)
-
+<!-- [Watch the talk](https://www.youtube.com/watch?v=wK7Q-zbJ3gQ) -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wK7Q-zbJ3gQ?si=JApp6XFEHp91qsPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 
 ## Education
