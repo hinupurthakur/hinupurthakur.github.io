@@ -70,7 +70,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 ### Women Who Go, Bengaluru | *June 2025*
 **Go x CRED Platform Engineering**  
-[Read the article](https://www.linkedin.com/posts/wwg-blr_excited-to-introduce-our-next-speaker-nupur)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7340464040940314626?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Layer5 | *October 2020*
 **Golang with mesheryctl**  
