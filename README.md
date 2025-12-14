@@ -41,7 +41,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 - Re-engineered deployment pipeline with multi-layered optimizations including Gradle remote cache for Java services, [Docker Buildx caching](https://docs.docker.com/build/cache/backends/s3/), parallel CI stages, automated PR checks, and streamlined health checks, reducing average service deployment time by 50% (from 18 min to 9 min)
 - Designed and implemented an in-house cost attribution tool, ensuring 100% automated tagging of microservices
 - Re-engineered [CI/CD tool](https://engineering.cred.club/scaling-up-with-caterpillar-the-codepipeline-at-cred-942dd818e131) into high-performance, platform-agnostic tool supporting multiple pipeline engines, replacing legacy shell scripts with optimized Golang binary, designing complete Pulumi IaC suite, and building comprehensive testing framework; cutting deployment times by 50% and dramatically improving developer productivity and DevEx
-- Developed a self-service Golang CLI tool to generate configuration for microservice CI/CD pipelines, improving 2x developer productivity
+- Developed a self-service [Golang CLI](https://github.com/spf13/cobra) tool to generate configuration for microservice CI/CD pipelines, improving 2x developer productivity
 - Set up infrastructure of a new organization from scratch including AWS org, CI/CD platform and other infra tools; also set up multi-org artifact replication
 
 ### Gather Network | Gurgaon, IN
