@@ -38,7 +38,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 - Ownership of all platform tools and CI/CD, enabling engineering teams to be self-served and saving 2x effort
 - Engineered automated GitHub Actions Runner Controller (ARC) with Pulumi IaC and Karpenter-based nodepools on EKS, slashing setup effort by 90% and reducing job scheduling latency by 80% through optimized pod provisioning and dynamic auto-scaling
-- Re-engineered deployment pipeline with multi-layered optimizations including Gradle remote cache for Java services, Docker Buildx caching, parallel CI stages, automated PR checks, and streamlined health checks, reducing average service deployment time by 50% (from 18 min to 9 min)
+- Re-engineered deployment pipeline with multi-layered optimizations including Gradle remote cache for Java services, [Docker Buildx caching](https://docs.docker.com/build/cache/backends/s3/), parallel CI stages, automated PR checks, and streamlined health checks, reducing average service deployment time by 50% (from 18 min to 9 min)
 - Designed and implemented an in-house cost attribution tool, ensuring 100% automated tagging of microservices
 - Re-engineered [CI/CD tool](https://engineering.cred.club/scaling-up-with-caterpillar-the-codepipeline-at-cred-942dd818e131) into high-performance, platform-agnostic tool supporting multiple pipeline engines, replacing legacy shell scripts with optimized Golang binary, designing complete Pulumi IaC suite, and building comprehensive testing framework; cutting deployment times by 50% and dramatically improving developer productivity and DevEx
 - Developed a self-service Golang CLI tool to generate configuration for microservice CI/CD pipelines, improving 2x developer productivity
