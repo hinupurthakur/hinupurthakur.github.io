@@ -66,6 +66,15 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 ---
 
+## Open Source Contributions
+
+- **terraform-aws-modules/terraform-aws-cloudfront** - [Added support for custom error response configuration](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/pull/57)
+- **meshery/meshery** - [Implemented mesheryctl system update command](https://github.com/meshery/meshery/pull/663)
+- **meshery/meshery** - [Added pattern file support to mesheryctl](https://github.com/meshery/meshery/pull/680)
+- **meshery/meshery** - [Enhanced mesheryctl with performance profile management](https://github.com/meshery/meshery/pull/818)
+
+---
+
 ## Talks & Presentations
 
 ### Women Who Go, Bengaluru | *June 2025*
