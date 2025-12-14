@@ -38,7 +38,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 - Ownership of all platform tools and CI/CD, enabling engineering teams to be self-served and saving 2x effort
 - Engineered automated [GitHub Actions Runner Controller](https://github.com/actions/actions-runner-controller) (ARC) with Pulumi IaC and Karpenter-based nodepools on EKS, slashing setup effort by 90% and reducing job scheduling latency by 80% through optimized pod provisioning and dynamic auto-scaling
-- Re-engineered deployment pipeline with multi-layered optimizations including Gradle remote cache for Java services, [Docker Buildx caching](https://docs.docker.com/build/cache/backends/s3/), parallel CI stages, automated PR checks, and streamlined health checks, reducing average service deployment time by 50% (from 18 min to 9 min)
+- Re-engineered deployment pipeline with multi-layered optimizations including [Gradle remote cache for Java services](https://docs.gradle.org/current/userguide/build_cache.html), [Docker Buildx caching](https://docs.docker.com/build/cache/backends/s3/), parallel CI stages, automated PR checks, and streamlined health checks, reducing average service deployment time by 50% (from 18 min to 9 min)
 - Designed and implemented an in-house cost attribution tool, ensuring 100% automated tagging of microservices
 - Re-engineered [CI/CD tool](https://engineering.cred.club/scaling-up-with-caterpillar-the-codepipeline-at-cred-942dd818e131) into high-performance, platform-agnostic tool supporting multiple pipeline engines, replacing legacy shell scripts with optimized Golang binary, designing complete Pulumi IaC suite, and building comprehensive testing framework; cutting deployment times by 50% and dramatically improving developer productivity and DevEx
 - Developed a self-service [Golang CLI](https://github.com/spf13/cobra) tool to generate configuration for microservice CI/CD pipelines, improving 2x developer productivity
@@ -47,8 +47,8 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 ### Gather Network | Gurgaon, IN
 **Software Engineer II** | *Mar 2021 - May 2022*
 
-- Worked as founding engineer, developing tools from 0 to 1 including Golang APIs, CLI tools and desktop applications
-- Led DevSecOps initiatives, setting up infrastructure using Terraform for all CI/CD deployments and implementing SAST analysis in CI
+- Worked as founding engineer, developing tools from 0 to 1 including [Golang APIs](https://github.com/gorilla/mux), [CLI tools](https://github.com/spf13/cobra) and [desktop applications](https://github.com/fyne-io/fyne)
+- Led DevSecOps initiatives, setting up infrastructure using Terraform for all CI/CD deployments and implementing [SAST analysis](https://semgrep.dev) in CI
 - Contributed to obtaining certifications including ISO 27001
 - Built end-to-end Ansible playbook to orchestrate blockchain genesis nodes
 
