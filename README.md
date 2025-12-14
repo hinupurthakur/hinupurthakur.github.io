@@ -42,7 +42,7 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 - Designed and implemented an in-house cost attribution tool, ensuring 100% automated tagging of microservices
 - Re-engineered CI/CD infrastructure into high-performance, platform-agnostic tool supporting multiple pipeline engines, replacing slow shell scripts with optimized Golang binary, designing complete Pulumi IaC suite, and building comprehensive testing framework; cutting deployment times by 50% and dramatically improving developer productivity and DevEx
 - Developed a self-service Golang CLI tool to generate configuration for microservice CI/CD pipelines, improving 2x developer productivity
-- Set up new organization from scratch including AWS org, CI/CD platform and other infra tools; also set up multi-org artifact replication
+- Set up infrastructure of a new organization from scratch including AWS org, CI/CD platform and other infra tools; also set up multi-org artifact replication
 
 ### Gather Network | Gurgaon, IN
 **Software Engineer II** | *Mar 2021 - May 2022*
