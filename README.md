@@ -6,7 +6,7 @@
 📍 Bengaluru, IN | 📧 hinupurthakur@gmail.com 
 [LinkedIn](https://linkedin.com/in/hinupurthakur) | [GitHub](https://github.com/hinupurthakur)
 
-<button id="downloadPdfBtn" style="display: flex; align-items: center; gap: 8px; padding: 10px 16px; background-color: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;">
+<button id="downloadPdfBtn" style="display: flex; align-items: center; gap: 8px; padding: 10px 16px; background-color: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; margin-bottom: 20px;">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
     <polyline points="7 10 12 15 17 10"></polyline>
@@ -15,6 +15,9 @@
   Download as PDF
 </button>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
 <script>
 document.getElementById('downloadPdfBtn').addEventListener('click', async function() {
   const btn = this;
@@ -22,15 +25,15 @@ document.getElementById('downloadPdfBtn').addEventListener('click', async functi
   btn.textContent = 'Generating PDF...';
   
   try {
-    // Dynamically load libraries
-    const { jsPDF } = await import('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js');
-    const html2canvas = (await import('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js')).default;
-
-    // Get the markdown content (main article content)
+    // Get the markdown content
     let mdContent = document.querySelector('main')?.innerText || 
                     document.querySelector('article')?.innerText ||
-                    document.querySelector('.content')?.innerText ||
-                    document.body.innerText;
+                    document.querySelector('.content')?.innerText;
+
+    if (!mdContent) {
+      alert('No content found');
+      return;
+    }
 
     // Remove embedded HTML but keep URLs
     mdContent = mdContent
@@ -60,7 +63,8 @@ document.getElementById('downloadPdfBtn').addEventListener('click', async functi
 
     document.body.removeChild(tempDiv);
 
-    // Create PDF
+    // Create PDF using jsPDF
+    const { jsPDF } = window.jspdf;
     const pdf = new jsPDF({
       orientation: 'portrait',
       unit: 'mm',
