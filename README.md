@@ -1,7 +1,7 @@
 
 # Nupur Thakur
 
-**Last seen building platforms at CRED**
+**Last seen building platforms at Snabbit**
 
 📍 Bengaluru, IN | 📧 hinupurthakur@gmail.com 
 [LinkedIn](https://linkedin.com/in/hinupurthakur) | [GitHub](https://github.com/hinupurthakur)
@@ -34,8 +34,13 @@ Engineer with a knack for curiosity, experienced in building distributed systems
 
 ## Work Experience
 
+### Snabbit | Bengaluru, IN
+**Software Development Engineer III (Cloud)** | *Jan 2025 - Present*
+
+- Bbuilding Infrastructure and Platforms
+
 ### CRED | Bengaluru, IN
-**Site Reliability Engineering (Platform)** | *May 2022 - Present*
+**Site Reliability Engineering (Platform)** | *May 2022 - Dec 2025*
 
 - Ownership of all platform tools and CI/CD, enabling engineering teams to be self-served and saving 2x effort
 - Engineered automated [GitHub Actions Runner Controller](https://github.com/actions/actions-runner-controller) (ARC) with Pulumi IaC and Karpenter-based nodepools on EKS, slashing setup effort by 90% and reducing job scheduling latency by 80% through optimized pod provisioning and dynamic auto-scaling
