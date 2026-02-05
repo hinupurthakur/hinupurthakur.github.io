@@ -100,4 +100,4 @@ Bachelor of Technology in Computer Science | *2016 - 2020*
 
 ---
 
-*Last Updated: December 2025*
+*Last Updated: January 2026*
